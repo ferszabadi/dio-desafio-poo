@@ -1,18 +1,27 @@
-## Getting Started
+# Desafio DIO
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Modelagem e Diagramação de um Componente iPhone
 
-## Folder Structure
+Com base no [vídeo de lançamento do iPhone de 2007](https://www.youtube.com/watch?v=9ou608QQRq8), foi elaborada a diagramação das classes e interfaces utilizando a ferramenta UML [draw.io](https://www.drawio.com/) e implementadas as classes e interfaces no formato de arquivos .java.
 
-The workspace contains two folders by default, where:
+O [desafio](https://github.com/digitalinnovationone/trilha-java-basico/tree/main/desafios/poo) foi proposto durante o Bootcamp GFT - Desenvolvimento Java com IA (2024) da plataforma [DIO](https://www.dio.me/).
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+#### Funcionalidades
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. **Reprodutor Musical**
+   - Métodos: `tocar()`, `pausar()`, `selecionarMusica(String musica)`
+2. **Aparelho Telefônico**
+   - Métodos: `ligar(String numero)`, `atender()`, `iniciarCorreioVoz()`
+3. **Navegador na Internet**
+   - Métodos: `exibirPagina(String url)`, `adicionarNovaAba()`, `atualizarPagina()`
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+#### Diagrama UML
 
-## Dependency Management
+![](DiagramaUML_Iphone.png)
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+#### Conhecimentos aplicados
+
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Vscode](https://img.shields.io/badge/Vscode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![terraform](https://img.shields.io/badge/-UML-white?style=for-the-badge&logo=UML&color=FABD14&logoColor=white)
+
